@@ -1,0 +1,56 @@
+/* CSS Document */
+body {
+  background-color: #f8f9fa;
+}
+#content {
+  padding-top: 65px;
+}
+.navbar {
+  margin-bottom: 0 !important;
+  border: solid #e7e7e7 1px;
+}
+.navbar-nav li:hover {
+  background-color: #e7e7e7  !important;
+  -webkit-transition: background-color 0.5s, color 0.5s !important;
+  -moz-transation: background-color 0.5s, color 0.5s !important;
+  -o-transition: background-color 0.5s, color 0.5s !important;
+  transition: background-color 0.5s, color 0.5s !important;
+}
+.page {
+  position: relative;
+  padding: 100px 0;
+  padding: 10rem 0;
+  border-bottom: 15px solid #f8f9fa;
+}
+#carousel {
+  width: 100%;
+  padding: 0;
+  height: calc(40%);
+}
+#about {
+  width: 100%;
+  height: 800px;
+  background: url(img/liane-metzler-29935-unsplash.jpg) 0 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+#extra {
+  width: 100%;
+  height: 800px;
+  background: url(img/steven-lelham-342930-unsplash.jpg) 0 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+#extra2 {
+  width: 100%;
+  height: 800px;
+  background: url(img/jeremy-bishop-340107-unsplash.jpg) 0 0 no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 200px 0;
+  border-bottom: 0;
+}
