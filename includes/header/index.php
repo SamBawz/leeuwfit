@@ -26,6 +26,8 @@
       <li class="nav-item <?php if ($page === "news") {echo "active";} ?>">
         <a class="nav-link" href="/leeuwfit/news/index.php">News</a>
       </li>
+	  <li class="nav-item <?php if ($page === "admin") {echo "active";} ?>">
+        <a class="nav-link" href="/leeuwfit/admin/index.html">Admin paneel</a>
     </ul>
      <?php
     session_start();
